@@ -199,7 +199,7 @@ func (c *openWeatherConfig) parseCond(dataInfo dataBlock) (iface.Cond, error) {
 		959: iface.CodeUnknown, // severe gale
 		960: iface.CodeUnknown, // storm
 		961: iface.CodeUnknown, // violent storm
-		962: iface.CodeUnknown, // hurricane
+		962: iface.CodeUnknown, // hurrican
 	}
 
 	ret.Code = iface.CodeUnknown
